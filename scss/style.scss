@@ -348,16 +348,22 @@ h1, h2, h3, h4, h5,
 	// text-transform: uppercase;
 	// letter-spacing: 2px;
 }
-.navbar-brand .Logo{
-	width: 200px;
+.navbar-brand .Logo1{
+	width: 100px;
 }
 
 .logo1 {
-	width: 200px;
-	height: auto;
+	width: 100px;
+	height: 50px;
 	background-color: #cc8b35;
 	padding: 10px;
   }
+  
+  .logo1 img {
+	width: 80%;
+	height: 60%;
+  }
+
 
 
 
