@@ -365,7 +365,7 @@ mark,
 
 .list-unstyled {
   padding-left: 0;
-  list-style: none; }
+  list-style: none;}
 
 .list-inline {
   padding-left: 0;
@@ -9306,7 +9306,8 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+ }
 
 .bg-primary {
   background: var(--red) !important; }
@@ -9432,7 +9433,7 @@ textarea.form-control {
     width: 40px;
     display: block;
     float: left;
-    background: #e52b34;
+    background: #c69500;
     border-radius: 50%;
     position: relative; }
     .ftco-footer-social li a span {
