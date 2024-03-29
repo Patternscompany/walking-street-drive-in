@@ -443,7 +443,7 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 	.menu-item li span{
-    color: red;
+    color: goldenrod;
       }
       .menu-item button{
         margin-top: 1rem;
@@ -9490,7 +9490,7 @@ textarea.form-control {
   display: block;
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.2);
-  color: #eb5860;
+  color: black;
   position: relative;
   line-height: 1;
   font-family: "Dancing Script", cursive;
@@ -9514,7 +9514,7 @@ textarea.form-control {
   color: #fff; }
 
 .heading-section.heading-section-white p {
-  color: rgba(255, 255, 255, 0.9); }
+  color: rgba(255, 255, 255, 0); }
 
 .hotel-img,
 .img,
