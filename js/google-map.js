@@ -192,7 +192,7 @@ function init() {
     var addresses = ['New York'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+        $.getJSON('https://www.google.com/maps/place/Walking+Street+Drive-In/@17.458324,78.386821,17z/data=!4m6!3m5!1s0x3bcb91d11bf95e83:0xbf25fbbf624cee9f!8m2!3d17.4583244!4d78.3868214!16s%2Fg%2F11sd3vlfmb?hl=en&entry=ttu='+addresses[x]+'&sensor=false', null, function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
