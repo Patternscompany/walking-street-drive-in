@@ -9330,6 +9330,10 @@ textarea.form-control {
 .ftco-bg-dark {
   background: #3c312e; }
 
+.bgs{
+  background-color: #000000;
+}
+
 .ftco-footer {
   font-size: 14px;
   background: #1a1a1a;
