@@ -4443,6 +4443,8 @@ input[type="button"].btn-block {
   .alert-success .alert-link {
     color: #0b2e13; }
 
+    
+
 .alert-info {
   color: #0c5460;
   background-color: #d1ecf1;
@@ -10046,3 +10048,20 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      z-index: 999;
+      animation: round 5s linear infinite;
+    }
+        
+    .whatsapp a i {
+      color: white;
+      font-size: 35px;
+      background-color: green;
+      border-radius: 50%;
+      padding: 10px;
+      animation: round 2s linear infinite;
+    }
